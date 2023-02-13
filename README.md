@@ -68,7 +68,7 @@ Exemplo de visualização:
 
 ![Prisma Studio](/readme-images/prisma-studio.png "Prisma Studio screen")
 
-Lembre-se de a cada alteração no banco, atualizar a página do Prisma Studio.
+:exclamation: Lembre-se de a cada alteração no banco, atualizar a página do Prisma Studio.
 
 <hr>
 <br>
@@ -79,7 +79,7 @@ Lembre-se de a cada alteração no banco, atualizar a página do Prisma Studio.
 
 A rota recebe name e username dentro do body. Ao cadastrar um novo usuário, ele é armazenado no seguinte formato:
 
-```json
+```js
 {
     id: 'uuid',
     name: 'João Silva',
@@ -89,7 +89,7 @@ A rota recebe name e username dentro do body. Ao cadastrar um novo usuário, ele
 
 ```
 
-\* Não é permitido o cadastro de usernames em duplicidade.
+:exclamation: Não é permitido o cadastro de usernames em duplicidade.
 
 <br>
 
@@ -99,7 +99,7 @@ A rota recebe title, zip_code, deadline e cost dentro do body e a propriedade us
 
 Ao criar o novo project, ele é armazenado no seguinte formato:
 
-```json
+```js
 {
     id: 'uuid',
     title: 'Nome do projeto',
