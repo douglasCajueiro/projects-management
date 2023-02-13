@@ -64,6 +64,8 @@ Para visualizar as alterações no banco de dados, inicie o Prisma Studio em um 
 ```bash
 $ npx prisma studio
 ```
+O Prisma Studio irá rodar na porta 5555 ([http://localhost:5555/](http://localhost:5555/))
+
 Exemplo de visualização:
 
 ![Prisma Studio](/readme-images/prisma-studio.png "Prisma Studio screen")
